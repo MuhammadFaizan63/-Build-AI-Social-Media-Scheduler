@@ -12,6 +12,7 @@ import { Switch } from "@/components/ui/switch"
 const SettingsPage = () => {
   const { user } = useUser()
   const { theme, setTheme } = useTheme()
+  
   return (
     <div className="w-full">
       <div className="max-w-5xl mx-auto w-full h-full">
@@ -22,28 +23,27 @@ const SettingsPage = () => {
         <div>
           <Tabs defaultValue="channels">
             <div className="mb-6 w-full border-b">
-              <TabsList variant="line" className="w-fit space-x-4
-              group-data-horizontal/tabs:h-12
-              ">
+              <TabsList variant="line" className="w-fit space-x-4 group-data-horizontal/tabs:h-12">
                 <TabsTrigger value="profile">
                   <User className="size-4" />
-                  Profile</TabsTrigger>
+                  Profile
+                </TabsTrigger>
                 <TabsTrigger value="channels">
                   <Layers className="size-4" />
-                  Channels</TabsTrigger>
+                  Channels
+                </TabsTrigger>
                 <TabsTrigger value="appearance">
                   <Palette className="size-4" />
-                  Appearance</TabsTrigger>
+                  Appearance
+                </TabsTrigger>
               </TabsList>
             </div>
 
             <TabsContent value="profile">
               <Card>
                 <CardHeader>
-                  <CardTitle>
-                    Your Profile
-                  </CardTitle>
-                  <CardDescription>Managr youe account information</CardDescription>
+                  <CardTitle>Your Profile</CardTitle>
+                  <CardDescription>Manage your account information</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <div className="flex items-center gap-4">
@@ -55,7 +55,7 @@ const SettingsPage = () => {
                         width={64}
                         height={64}
                       />
-                    ):(
+                    ) : (
                       <div className="flex h-16 w-16 items-center justify-center rounded-full bg-muted">
                         <User className="size-8 text-muted-foreground" />
                       </div>
@@ -66,8 +66,11 @@ const SettingsPage = () => {
                       <p className="text-sm text-muted-foreground">{user?.primaryEmailAddress?.emailAddress}</p>
                     </div>
                   </div>
-                   <div className="mt-6">
+                  
+                  {/* Clerk UserProfile Section Fix */}
+                  <div className="mt-6">
                     <UserProfile
+                      routing="hash" // This explicitly prevents the Next.js unhandled rejection loop crash
                       appearance={{
                         elements: {
                           rootBox: "w-full",
@@ -81,7 +84,7 @@ const SettingsPage = () => {
             </TabsContent>
 
             <TabsContent value="channels">
-              <ChannelsTab  />
+              <ChannelsTab />
             </TabsContent>
 
             <TabsContent value="appearance">

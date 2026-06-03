@@ -6,6 +6,9 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { ThemeProvider } from "@/components/theme-provider";
 import { QueryProvider } from "@/components/query-provider";
 import { Toaster } from "@/components/ui/sonner";
+// import dns from "node:dns";
+
+// dns.setServers(['1.1.1.1','8.8.8.8'])
 
 const geistSans = Geist({
   variable: "--font-geist-sans",

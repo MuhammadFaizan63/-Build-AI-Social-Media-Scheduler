@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🍋 Lemon AI – AI Social Media Scheduling Platform
 
-## Getting Started
+> ### Commercial License Required
+>
+> This project is **Free for Personal Use**. A commercial license is **required** for any use of the code (in part or whole) for SaaS, client work, or production apps.
+>
+> 👉 **[Get Commercial License (30% OFF)](https://techwithemma.gumroad.com/l/ttxdw)**
+> 👉 **[Read License Terms](https://github.com/TechWithEmmaYT/)**
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ❤️ Support the Channel
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+If this project helps you, you can support my work by:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+* 🟢 [Try Insforge](https://insforge.dev/?utm_source=techwithemma)
+* ☕ [Buy Me a Coffee](https://dub.sh/buy-me-coffee)
+* 🎥 [Subscribe on YouTube](https://tinyurl.com/subcribe-to-techwithEmma)
+* 🌟 Star this repository
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## Watch the Full Build on YouTube
 
-To learn more about Next.js, take a look at the following resources:
+> In this video, you’ll build **Lemon AI**, an AI-powered Social Media Scheduling Platform from scratch. Learn how to manage multiple social channels, generate AI-powered content, automate scheduled posts with cron jobs, organize ideas using a Kanban board, and build a modern production-ready SaaS application.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+👉 [Watch the Full Tutorial](https://www.youtube.com/)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🗝️ Key Features 👇
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* 🔐 Authentication with **Clerk**
+* 🔗 Connect and manage social media accounts
+* 📱 Multiple social media channel support
+* 📝 Create and manage posts
+* 🤖 AI Assistant to generate, shorten, rephrase, and expand posts
+* 👀 Custom preview components for each channel
+* 📅 Calendar & List View
+* ⏰ Automated post scheduling with cron jobs
+* 📌 Kanban board for organizing content ideas
+* ✨ AI-powered content idea generation
+* 🌐 Built with **Next.js, React, Inngest, Clerk & Insforge**
+* 🎨 Styled with **Tailwind CSS + Shadcn/UI**
+* 🚀 Full-stack and deployment-ready
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## Getting Started / Running the Code
+
+1. **Sign up on Insforge:**
+   👉 [https://insforge.dev/?utm_source=techwithemma](https://insforge.dev/?utm_source=techwithemma)
+
+2. Create a **project** and connect it to your AI code editor.
+
+3. Click Install on the insforge dashboard  **** → copy your `BASE_URL`, `ANON_KEY` & `APIKEY` → paste into your `.env` file.
+
+4. Enable your Gemini AI models inside **Model Gateway**.
+
+5. Watch the full video tutorial to follow the complete build process.
+
+---
+
+## License Information
+
+Commercial use requires a paid license.
+👉 [Get a Commercial License](https://techwithemma.gumroad.com/l/ttxdw)
+
+For full license details, see the license file included in this repository.
+
+---
+
+## 📺 Subscribe for More Projects
+
+I build real-world SaaS apps, AI systems, automation platforms, and production-grade applications.
+
+🔔 Subscribe here:
+👉 [https://tinyurl.com/subcribe-to-techwithEmma](https://tinyurl.com/subcribe-to-techwithEmma)

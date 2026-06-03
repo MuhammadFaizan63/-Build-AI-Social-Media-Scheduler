@@ -12,3 +12,4 @@ export type ChannelType = {
     profile_image?: string | null
     profile_url?: string | null
 }
+
